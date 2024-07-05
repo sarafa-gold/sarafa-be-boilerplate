@@ -17,7 +17,7 @@
     "typescript": "^5.5.3"
   },
   "dependencies": {
-    "sarafa-svc-node-handler-base": "^0.0.1-beta",
+    "sarafa-svc-node-handler-base": "^0.0.2-beta",
     "sarafa-svc-node-wrk": "^1.0.0"
   }
 }
