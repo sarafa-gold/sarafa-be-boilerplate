@@ -8,6 +8,7 @@ export default async (app: FastifyInstance) => {
   const exampleController =
     container.resolve<ExampleController>(ExampleController)
 
+  exampleController.exampleController
   ApiHelper.get<{}, {}, {}>(
     app,
     '/',
