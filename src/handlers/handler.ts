@@ -2,6 +2,7 @@ import async from 'async'
 
 import HandlerBase from 'sarafa-svc-node-handler-base'
 import { CmdOptions } from 'sarafa-svc-node-wrk'
+import exampleRoutes from '../routes/example.routes'
 
 class HttpHandler extends HandlerBase {
   constructor (conf: any, cmdOptions: CmdOptions) {
@@ -27,6 +28,7 @@ class HttpHandler extends HandlerBase {
   }
 
   _start (cb: (err?: Error | null, results?: any) => void) {
+    this.services.sarafaSvcFastify.register('routes', exampleRoutes)
     this.services.sarafaSvcFastify.start()
   }
 
