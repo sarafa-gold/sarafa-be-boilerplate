@@ -21,9 +21,9 @@
     "async": "^3.2.5",
     "inversify": "^6.0.2",
     "reflect-metadata": "^0.2.2",
-    "sarafa-lib-utils-api": "^0.0.1-beta",
-    "sarafa-svc-fastify": "^0.0.1",
-    "sarafa-svc-node-handler-base": "^0.0.2-beta",
-    "sarafa-svc-node-wrk": "^1.0.0"
+    "sarafa-lib-utils-api": "^1.0.1",
+    "sarafa-svc-fastify": "^1.0.1",
+    "sarafa-svc-node-handler-base": "^1.0.1",
+    "sarafa-svc-node-wrk": "^1.0.1"
   }
 }
