@@ -16,6 +16,14 @@ https://github.com/sarafa-gold/sarafa-svc-node-handler-base
 https://github.com/sarafa-gold/sarafa-svc-node-wrk
 https://github.com/sarafa-gold/sarafa-lib-utils-api
 
+## npm packages
+
+https://www.npmjs.com/package/sarafa-svc-node-wrk
+https://www.npmjs.com/package/sarafa-svc-node-handler-base
+https://www.npmjs.com/package/sarafa-svc-fastify
+https://www.npmjs.com/package/sarafa-svc-base (Used in sarafa-svc-fastify. Base for all services)
+https://www.npmjs.com/package/sarafa-lib-utils-api
+
 
 # Fastify based node js microservice
 
