@@ -10,6 +10,7 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/async": "^3.2.24",
     "@types/ejs": "^3.1.5",
     "@types/node": "^20.14.9",
     "@types/yargs": "^17.0.32",
@@ -17,6 +18,11 @@
     "typescript": "^5.5.3"
   },
   "dependencies": {
+    "async": "^3.2.5",
+    "inversify": "^6.0.2",
+    "reflect-metadata": "^0.2.2",
+    "sarafa-lib-utils-api": "^0.0.1-beta",
+    "sarafa-svc-fastify": "^0.0.1",
     "sarafa-svc-node-handler-base": "^0.0.2-beta",
     "sarafa-svc-node-wrk": "^1.0.0"
   }
