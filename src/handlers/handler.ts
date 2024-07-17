@@ -28,7 +28,7 @@ class HttpHandler extends HandlerBase {
   }
 
   _start (cb: (err?: Error | null, results?: any) => void) {
-    this.services.sarafaSvcFastify.register('routes', exampleRoutes)
+    this.services.sarafaSvcFastify.register('customFn', [{customFn: exampleRoutes, config: { prefix: "/api/auth"}}])
     this.services.sarafaSvcFastify.start()
   }
 
